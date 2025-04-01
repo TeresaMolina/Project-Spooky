@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2.Back_Larm-Rleg_0: -8258139049952987380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

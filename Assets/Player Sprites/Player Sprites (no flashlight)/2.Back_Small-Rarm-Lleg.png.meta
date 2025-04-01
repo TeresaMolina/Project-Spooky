@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2.Back_Small-Rarm-Lleg_0: -8247582210455883055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

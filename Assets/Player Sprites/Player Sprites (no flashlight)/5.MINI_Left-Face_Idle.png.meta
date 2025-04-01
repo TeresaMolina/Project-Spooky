@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5.MINI_Left-Face_Idle_0: 2647393831530804991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

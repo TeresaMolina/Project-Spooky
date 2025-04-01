@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Weeping angel_attack_0: -3926468143469445874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

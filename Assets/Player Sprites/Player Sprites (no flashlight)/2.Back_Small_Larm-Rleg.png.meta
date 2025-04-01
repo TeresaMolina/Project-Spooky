@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2.Back_Small_Larm-Rleg_0: 5386454470254298101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
