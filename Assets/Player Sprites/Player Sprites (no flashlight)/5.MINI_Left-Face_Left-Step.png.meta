@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5.MINI_Left-Face_Left-Step_0: 2787372505963320112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
