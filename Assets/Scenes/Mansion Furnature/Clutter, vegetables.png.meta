@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, vegetables_0: 5802103121666379467
+      Clutter, vegetables_1: -153132862683828226
+      Clutter, vegetables_2: -321032205658119278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

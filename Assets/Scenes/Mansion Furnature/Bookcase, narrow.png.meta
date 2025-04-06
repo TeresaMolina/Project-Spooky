@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bookcase, narrow_0: -981290728988634222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

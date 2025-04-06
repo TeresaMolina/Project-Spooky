@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, cauldron_0: -1058708891247935909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

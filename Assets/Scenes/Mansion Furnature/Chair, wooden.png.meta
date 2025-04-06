@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chair, wooden_0: -5436351069105551032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

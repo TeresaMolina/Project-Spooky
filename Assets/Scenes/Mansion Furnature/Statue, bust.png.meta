@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Statue, bust_0: -5680972551326890941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

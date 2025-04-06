@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, kitchenware_0: 5239578532199934480
+      Clutter, kitchenware_1: 1405920480779253615
+      Clutter, kitchenware_2: -2087439903332703635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
