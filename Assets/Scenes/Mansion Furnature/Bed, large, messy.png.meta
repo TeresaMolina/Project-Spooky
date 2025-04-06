@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bed, large, messy_0: -2501832059655920385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

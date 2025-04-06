@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hearth, 3_0: 76126148121270902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

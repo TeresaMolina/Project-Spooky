@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Toilet, basin_0: 6651590366357019945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wardrobe, 3_0: -4426851987234454235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

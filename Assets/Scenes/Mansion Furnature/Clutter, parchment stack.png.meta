@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, parchment stack_0: -4281837237353821919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

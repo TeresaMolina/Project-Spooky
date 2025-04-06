@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, game board_0: 975686953140577942
+      Clutter, game board_1: -7406224769188611323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

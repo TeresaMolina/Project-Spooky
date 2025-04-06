@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, books, 1_0: -1951013282360416612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

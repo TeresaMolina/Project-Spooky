@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clutter, cutlery_0: 3589478140764683963
+      Clutter, cutlery_1: -2176234111616859935
+      Clutter, cutlery_2: -3404760888749849847
+      Clutter, cutlery_3: 2959303952906478102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
