@@ -4,30 +4,66 @@ using UnityEngine.Rendering.Universal;
 public class Aim : MonoBehaviour
 {
     public Camera cam;
-    public Light2D lightSource; // Assign your Light2D component here
-    public float raycastDistance = 10f; // Maximum distance light can reach
+    public Light2D lightSource;
+    public float maxLightDistance = 8f;
+    public LayerMask obstacleLayer;
+
+    void LateUpdate() // Changed from Update to LateUpdate
+    {
+        // Get mouse position in world space (with proper Z-depth)
+        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(
+            Input.mousePosition.x, 
+            Input.mousePosition.y, 
+            -cam.transform.position.z // Compensate for camera Z-offset
+        ));
+
+        // Calculate direction from player to mouse
+        Vector2 lookDir = (mousePos - transform.position).normalized;
+        
+        // Rotate flashlight
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+
+        // Dynamic light distance with wall occlusion
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position, 
+            lookDir, 
+            maxLightDistance, 
+            obstacleLayer
+        );
+
+        lightSource.pointLightOuterRadius = hit.collider 
+            ? hit.distance 
+            : maxLightDistance;
+        
+        
+    }
+
+        // Add to Aim script
+    public ParticleSystem dustParticles;
+    public float minFlickerSpeed = 0.1f;
+    public float maxFlickerSpeed = 0.3f;
 
     void Update()
     {
-        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 lookDir = mousePos - transform.position;
-        
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        
-        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f); // Adjust offset as needed
+          Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(
+            Input.mousePosition.x, 
+            Input.mousePosition.y, 
+            -cam.transform.position.z // Compensate for camera Z-offset
+        ));
 
-        // this part is me messing around with the Raycast, to check for obstacles
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, lookDir.normalized, raycastDistance);
+        // Calculate direction from player to mouse
+        Vector2 lookDir = (mousePos - transform.position).normalized;
         
-        if (hit.collider != null)
+        // Dust particles when light hits surfaces
+        if (lightSource.pointLightOuterRadius < maxLightDistance)
         {
-            // If hit, adjust light's range to stop at obstacle
-            lightSource.pointLightOuterRadius = hit.distance;
+            dustParticles.transform.position = transform.position + (Vector3)lookDir * lightSource.pointLightOuterRadius;
+            dustParticles.Emit(1);
         }
-        else
-        {
-            // If no hit, reset light's range to maximum
-            lightSource.pointLightOuterRadius = raycastDistance;
-        }
+
+        // Random light flicker
+        lightSource.intensity = Random.Range(0.9f, 1.1f);
     }
+
 }

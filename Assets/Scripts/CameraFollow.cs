@@ -1,18 +1,23 @@
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class SmoothCameraFollow : MonoBehaviour
 {
-    public Transform target; // Assign to player
-    public float smoothSpeed = 0.125f; // Speed at which camera follows player
-    public Vector3 offset = new Vector3(0f, 0f, -10f); // Adjust this for zoom level
+    public Transform target; // Assign player object
+    public float smoothSpeed = 5f;
+    public Vector3 offset = new Vector3(0f, 0f, -10f); // Z for 2D ortho cam
 
     void LateUpdate()
     {
-        Vector3 desiredPosition = target.position + offset;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPosition;
+        if (target == null) return;
 
-        // Optional: Keep camera rotation aligned with player's direction
-        // transform.rotation = Quaternion.Euler(0f, 0f, target.rotation.eulerAngles.z);
+        // Follow only X/Y position, maintain Z offset
+        Vector3 targetPosition = target.position + offset;
+        targetPosition.z = offset.z; // Lock Z-axis
+        
+        transform.position = Vector3.Lerp(
+            transform.position, 
+            targetPosition, 
+            smoothSpeed * Time.deltaTime
+        );
     }
 }
