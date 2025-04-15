@@ -33,8 +33,17 @@ public class PlayerMovementMain : MonoBehaviour
 
         //Left shift to run
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
-
         animator.SetBool("isRunning", isRunning);
+
+
+        //if moving store direction
+
+        if(movement != Vector2.zero)
+        {
+            animator.SetFloat("LastHorizontal", movement.x);
+            animator.SetFloat("LastVertical", movement.y);
+        }
+
 
 
 
