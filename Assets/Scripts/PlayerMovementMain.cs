@@ -10,44 +10,44 @@ public class PlayerMovementMain : MonoBehaviour
 
     Vector2 movement;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    //void Start()
-    //{
-    //    rb = GetComponent<Rigidbody2D>;
-    //}
-
-    // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        //moveInput = Vector2(moveX, moveY).normalized;
+        movement = Vector2.zero;
 
-        //diagonal mvmt
-        movement = movement.normalized;
+        // Check for input and immediately update facing direction
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        {
+            movement.y = 1;
+            animator.SetFloat("LastHorizontal", 0);
+            animator.SetFloat("LastVertical", 1);
+        }
+        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        {
+            movement.y = -1;
+            animator.SetFloat("LastHorizontal", 0);
+            animator.SetFloat("LastVertical", -1);
+        }
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            movement.x = -1;
+            animator.SetFloat("LastHorizontal", -1);
+            animator.SetFloat("LastVertical", 0);
+        }
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            movement.x = 1;
+            animator.SetFloat("LastHorizontal", 1);
+            animator.SetFloat("LastVertical", 0);
+        }
 
-        //animator params
+        // Live movement update for walking/running
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        //Left shift to run
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        animator.SetBool("isRunning", isRunning);
-
-
-        //if moving store direction
-
-        if(movement != Vector2.zero)
-        {
-            animator.SetFloat("LastHorizontal", movement.x);
-            animator.SetFloat("LastVertical", movement.y);
-        }
-
-
-
-
     }
+
 
     private void FixedUpdate()
     {
