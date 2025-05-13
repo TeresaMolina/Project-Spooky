@@ -1,0 +1,855 @@
+fileFormatVersion: 2
+guid: 8688aa8bdd12f154a9e74bbf287963da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 271419586812217921
+    second: Insanity-SpriteSheet5x_0
+  - first:
+      213: -5585645692639294805
+    second: Insanity-SpriteSheet5x_1
+  - first:
+      213: 3435971176331753789
+    second: Insanity-SpriteSheet5x_2
+  - first:
+      213: -802730121814901741
+    second: Insanity-SpriteSheet5x_3
+  - first:
+      213: 2417639342412827914
+    second: Insanity-SpriteSheet5x_4
+  - first:
+      213: 6956761072999204513
+    second: Insanity-SpriteSheet5x_5
+  - first:
+      213: 347852955764994174
+    second: Insanity-SpriteSheet5x_6
+  - first:
+      213: -4607108876132293135
+    second: Insanity-SpriteSheet5x_7
+  - first:
+      213: -356927691330188531
+    second: Insanity-SpriteSheet5x_8
+  - first:
+      213: 4642673460915737991
+    second: Insanity-SpriteSheet5x_9
+  - first:
+      213: 6777935945611051859
+    second: Insanity-SpriteSheet5x_10
+  - first:
+      213: 8113777619147473869
+    second: Insanity-SpriteSheet5x_11
+  - first:
+      213: 2603814296693130323
+    second: Insanity-SpriteSheet5x_12
+  - first:
+      213: -4661571004878489300
+    second: Insanity-SpriteSheet5x_13
+  - first:
+      213: 5994149689455800485
+    second: Insanity-SpriteSheet5x_14
+  - first:
+      213: 6699325019880316368
+    second: Insanity-SpriteSheet5x_15
+  - first:
+      213: -4353096245375096029
+    second: Insanity-SpriteSheet5x_16
+  - first:
+      213: -2704311399739207937
+    second: Insanity-SpriteSheet5x_17
+  - first:
+      213: 2271503357033679985
+    second: Insanity-SpriteSheet5x_18
+  - first:
+      213: 3606092536876302767
+    second: Insanity-SpriteSheet5x_19
+  - first:
+      213: 3007068162385815757
+    second: Insanity-SpriteSheet5x_20
+  - first:
+      213: -8270882062590393633
+    second: Insanity-SpriteSheet5x_21
+  - first:
+      213: 5216049272609651381
+    second: Insanity-SpriteSheet5x_22
+  - first:
+      213: 3171431529156514235
+    second: Insanity-SpriteSheet5x_23
+  - first:
+      213: -1977910007424359446
+    second: Insanity-SpriteSheet5x_24
+  - first:
+      213: -6075726167839551757
+    second: Insanity-SpriteSheet5x_25
+  - first:
+      213: 1304970065428840906
+    second: Insanity-SpriteSheet5x_26
+  - first:
+      213: -6339029951883288632
+    second: Insanity-SpriteSheet5x_27
+  - first:
+      213: 2967458412919163044
+    second: Insanity-SpriteSheet5x_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2414
+        width: 107
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a86091da644c300800000000000000
+      internalID: 271419586812217921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2259
+        width: 152
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa4b0926dccb72b0800000000000000
+      internalID: -5585645692639294805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_2
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2254
+        width: 32
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d393cbf84950faf20800000000000000
+      internalID: 3435971176331753789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_3
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 2439
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c77be05312cd4f0800000000000000
+      internalID: -802730121814901741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_4
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2254
+        width: 32
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d86873c2e2d8120800000000000000
+      internalID: 2417639342412827914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2274
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6026f56516b8060800000000000000
+      internalID: 6956761072999204513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2279
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7031769b62d3d400800000000000000
+      internalID: 347852955764994174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_7
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2299
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5e59cf2e24010c0800000000000000
+      internalID: -4607108876132293135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2309
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b83c3e720fb0bf0800000000000000
+      internalID: -356927691330188531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2309
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785140e2ae61e6040800000000000000
+      internalID: 4642673460915737991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_10
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2244
+        width: 112
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3538f7cd4d0101e50800000000000000
+      internalID: 6777935945611051859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_11
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2269
+        width: 47
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ccc781cde99070800000000000000
+      internalID: 8113777619147473869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2089
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3544a77ae4b922420800000000000000
+      internalID: 2603814296693130323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2094
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29f4fe7ed5ce4fb0800000000000000
+      internalID: -4661571004878489300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2104
+        width: 137
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0f78a526f7f2350800000000000000
+      internalID: 5994149689455800485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_15
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2104
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd5adc6c98c8fc50800000000000000
+      internalID: 6699325019880316368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_16
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2104
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ba45d4702b693c0800000000000000
+      internalID: -4353096245375096029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_17
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 2119
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe41882c1b587ad0800000000000000
+      internalID: -2704311399739207937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1924
+        width: 82
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c891ea440068f10800000000000000
+      internalID: 2271503357033679985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1924
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa103bf6e0a6b0230800000000000000
+      internalID: 3606092536876302767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_20
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1929
+        width: 132
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8a462cf804bb920800000000000000
+      internalID: 3007068162385815757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1924
+        width: 147
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd24628c59ce73d80800000000000000
+      internalID: -8270882062590393633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1934
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba35d87d21236840800000000000000
+      internalID: 5216049272609651381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_23
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1944
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb119dc3c20330c20800000000000000
+      internalID: 3171431529156514235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_24
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1959
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3e7c1e35d0d84e0800000000000000
+      internalID: -1977910007424359446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_25
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1979
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fec06dad3faeaba0800000000000000
+      internalID: -6075726167839551757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_26
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1969
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac187684c5f2c1210800000000000000
+      internalID: 1304970065428840906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1764
+        width: 82
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf5f6928dd3708a0800000000000000
+      internalID: -6339029951883288632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insanity-SpriteSheet5x_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1599
+        width: 481
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a88acb44b78e2920800000000000000
+      internalID: 2967458412919163044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

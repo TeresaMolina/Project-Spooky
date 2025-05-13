@@ -5,17 +5,18 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - light
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - light
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Border
+  - Shadows
   - 
   - 
   - 
